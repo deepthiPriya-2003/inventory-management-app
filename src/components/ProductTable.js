@@ -37,7 +37,7 @@ class ProductTable extends Component {
 
     return (
       <div>
-        {/* Filters */}
+        
         <div className="filter-container">
           <input
             type="text"
@@ -58,7 +58,7 @@ class ProductTable extends Component {
           </select>
         </div>
 
-        {/* Table */}
+        
         <table className="product-table">
           <thead>
             <tr className="table-header-row">
@@ -80,7 +80,7 @@ class ProductTable extends Component {
                 <td className="table-data">{p.brand}</td>
                 <td className="table-data">{p.stock}</td>
 
-                {/* STATUS LABEL */}
+                
                 <td className="table-data">
                   {p.status === "In Stock" ? (
                     <span className="status in-stock">In Stock</span>
